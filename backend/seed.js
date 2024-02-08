@@ -1,5 +1,5 @@
 require('dotenv').config();
-const CXN = process.env.MONGOOSE_CONNECTION;
+const CXN = process.env.connection_string;
 const connectToDB = require('./db/mongoose');
 const Product = require('./models/product.model')
 

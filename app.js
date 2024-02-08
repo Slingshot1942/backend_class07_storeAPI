@@ -17,7 +17,7 @@ app.use("/api/v1/products", productRoutes);
 
 //initialization
 const PORT = 5001;
-const CXN = process.env.MONGOOSE_CONNECTION;
+const CXN = process.env.connection_string;
 
 app.use(express.json());
 const start = async () => {
