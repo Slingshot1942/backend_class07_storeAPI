@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/v1/products", productRoutes);
 
+
 //initialization
 const PORT = 5001;
 const CXN = process.env.connection_string;
